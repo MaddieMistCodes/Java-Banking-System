@@ -72,7 +72,7 @@ public class SimpleBankingSystem {
 
         //Create the new account
         Accounts account = new Accounts(accountName, accountID, accountBalance);
-        //Adding account object to accounts list
+        //Adding account object to accounts map
         accounts.put(accountID, account);
         
         //Add the account to the accounts.txt file in CSV format
