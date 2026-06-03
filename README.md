@@ -1,7 +1,7 @@
 # Java-Banking-System
 A simple Java Banking System that lets users create accounts, sign in, deposit and withdraw funds, track transactions, view balances and history, and permanently delete accounts. Includes text file storage for account data and transactions, demonstrating OOP and file handling.
 
-## 📌 Features
+## Features
 • Text based menu with number options to navigate through.
 • Creates user bank accounts and assigns each user an ID.
 • Allows users with ID to access banking services.
@@ -10,13 +10,13 @@ A simple Java Banking System that lets users create accounts, sign in, deposit a
 • Allows users to view their past transactions. 
 • If user decides to stop using service, an option to permanently delete the account is provided. 
 
-## 📌 Tech Stack
+## Tech Stack
 • Java
 • Object-Orientated Programming
 • Collections Framework, ie ArrayList and HashMap for storing data
 • File I/O - reading/writing data to text files
 
-## 📌 Getting Started
+## Getting Started
 This project was created on Eclipse IDE - to run on Eclispse the instrcutions are below:
 
 1. Open Eclipse
@@ -26,7 +26,7 @@ This project was created on Eclipse IDE - to run on Eclispse the instrcutions ar
 
 This application can also run on the terminal too.
 
-## 📌 File Structure
+## File Structure
 • MainBanking.java → Entry point of the program.
 • SimpleBankingSystem.java → Core logic (menus, account management, file handling).  
 • Accounts.java → Account model (stores balance, transactions, account ID).
@@ -34,7 +34,7 @@ This application can also run on the terminal too.
 • accounts.txt → Stores account data.
 • transactions.txt → Stores transaction history.
 
-## 📌 Visual Guide
+## Visual Guide
 
 The below is the main menu of the program, user can input either 1,2 or 3.
 
@@ -53,7 +53,7 @@ From there, the user can access all servces related to the account.
 
 Once done, choose the sign-out option to exit the program.
 
-## 📌 Future Improvements
+## Future Improvements
 In time I plan to further improve the capabilities of this project. A few options I am considering are:
 1. Password Protection on accounts
 2. Interest Calculations on balances
